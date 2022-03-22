@@ -6,16 +6,24 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavLink to="/">
-                    <h1>Logo</h1>
+                    <h1>Zachary Johnson</h1>
                 </NavLink>
                 <Bars />
                 <NavMenu>
                     <NavLink to="/about" activestyle='true'>
                         About
                     </NavLink>
+                    <NavLink to="/portfolio" activestyle='true'>
+                        Portfolio
+                    </NavLink>
+                    <NavLink to="/resume" activestyle='true'>
+                        Resume
+                    </NavLink>
                 </NavMenu>
                 <NavBtn>
-                    <NavBtnLink to="/signin">Sign In</NavBtnLink>
+                    <NavBtnLink to="/contact">
+                        Contact
+                    </NavBtnLink>
                 </NavBtn>
             </Nav>
         </>
