@@ -1,18 +1,20 @@
 import React from 'react'
 
-const Portfolio = () => {
+const Contact = () => {
   return (
     <div 
         style={{
             display: 'flex', 
             justifyContent: 'center', 
             alignItems: 'center', 
-            height: '90vh'
+            height: '90vh',
+            width: '100%',
+            position: 'absolute'
         }}
     >
-        <h1>Portfolio</h1>
+        <h1>Contact</h1>
     </div>
   )
 }
 
-export default Portfolio
+export default Contact
