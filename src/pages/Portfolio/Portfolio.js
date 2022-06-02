@@ -1,18 +1,20 @@
 import React from 'react'
 
-const Home = () => {
+const Portfolio = () => {
   return (
     <div 
         style={{
             display: 'flex', 
             justifyContent: 'center', 
             alignItems: 'center', 
-            height: '90vh'
+            height: '90vh',
+            width: '100%',
+            position: 'absolute'
         }}
     >
-        <h1>Home</h1>
+        <h1>Portfolio</h1>
     </div>
   )
 }
 
-export default Home
+export default Portfolio
